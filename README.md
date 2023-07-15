@@ -4,6 +4,24 @@ This Solidity program is a simple program which shows the functioning of the ass
 This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain. In this program within a single function we have called all the three most useful functions of solidity to ensure authorization, condition and also the revert of remainig gas. This program serves as a simple and straightforward introduction to the function in the Solidity programming, and can be used as a stepping stone for more complex projects in the future.
 # Getting Started
 ## Executing program
-To run this program, you can use Remix, an online Solidity IDE. [To get started, go to the Remix website at:] (https://remix.ethereum.org/).
-Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar or click on new file button. Save the file with a .sol extension (e.g., module1.sol). Copy and paste the code into the file:https://github.com/JAYA-SINGH261001/ETH-AVAX-MODULE1/blob/main/module1.
-
+To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
+Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar or click on new file button.
+Save the file with a .sol extension (e.g., module1.sol).
+Copy and paste the code into the file:https://github.com/JAYA-SINGH261001/ETH-AVAX-MODULE1/blob/main/module1.
+'''// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+contract Error {
+    uint gravitational_pull = 10;
+    address owner;
+    constructor() {
+        owner = msg.sender;
+    }
+    function Weight(uint _mass) public view returns (uint) {
+        require(owner == msg.sender ,"You can't open this file");
+        assert(_mass > 0);
+        if ((_mass * gravitational_pull) < 0){
+            revert("Weight of a body can never be zero");
+        }
+        return _mass * gravitational_pull;
+    }
+}'''
