@@ -18,9 +18,7 @@ Once the code is compiled, you can deploy the contract by clicking on the "Deplo
 
 Once the contract is deployed, you can interact with it by calling the sayHello function. Click on the "Error" contract in the left-hand sidebar, and then click on the "Weight" function. Finally, click on the "transact" button to execute the function and retrieve the result.
 # Authors
-## Jaya Singh
-
-linkedin.com/in/jaya-singh-23b113230/
+## Jaya Singh (https://www.linkedin.com/in/jaya-singh-23b113230)
 
 # License
 This project is licensed under the MIT License - see the LICENSE.md file for details
