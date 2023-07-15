@@ -6,7 +6,7 @@ This program is a simple contract written in Solidity, a programming language us
 ## Executiong program
 To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
 Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar or click on new file button. Save the file with a .sol extension (e.g., module1.sol). Copy and paste the following code into the file:
-// SPDX-License-Identifier: MIT
+*// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 contract Error {
     uint gravitational_pull = 10;
